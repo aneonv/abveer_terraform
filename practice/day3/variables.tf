@@ -1,3 +1,11 @@
+variable "project_name" {
+  type = string
+}
+
+variable "environment" {
+  type = string
+}
+
 variable "ami_value" {
   type = string
 }
@@ -11,17 +19,13 @@ variable "key_name" {
 }
 
 variable "cidr" {
-    description = "The CIDR block for the VPC"
-    type        = string
-  
+  type = string
 }
+
 variable "cidr_sub1" {
-    description = "The CIDR block for Subnet 1"
-    type        = string
-  
+  type = string
 }
+
 variable "cidr_sub2" {
-    description = "The CIDR block for Subnet 2"
-    type        = string
-  
+  type = string
 }
