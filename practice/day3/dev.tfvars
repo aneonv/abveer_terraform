@@ -1,3 +1,6 @@
 ami_value = "resolve:ssm:/aws/service/canonical/ubuntu/server/22.04/stable/current/amd64/hvm/ebs-gp2/ami-id"
 instance_type_value = "t3.micro"
 key_name      = "aws_login"
+cidr = "10.0.0.0/16"
+cidr_sub1 = "10.0.1.0/24"
+cidr_sub2 = "10.0.2.0/24"
