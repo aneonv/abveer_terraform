@@ -1,3 +1,6 @@
+variable "tags" {
+  type = map(string)
+}
 variable "cidr" {
     description = "The CIDR block for the VPC"
     type        = string
