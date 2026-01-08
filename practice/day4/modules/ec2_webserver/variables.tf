@@ -16,3 +16,11 @@ variable "key_name" {
     description = "The key pair name to access the EC2 instance"
     type        = string
 }
+variable "subnet_id1" {
+    description = "The subnet ID where the EC2 instance will be launched"
+    type        = string
+}
+variable "security_group_ids" {
+    description = "The security group IDs to associate with the EC2 instance"
+    type        = list(string)
+}
